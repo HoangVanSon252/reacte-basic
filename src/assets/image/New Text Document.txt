@@ -1,0 +1,4 @@
+component: mỗi 1 function(hoặc arowfuntion) được gọi là 1 component hoặc 1 state.
+nó luôn trả về 1 hàm renderer và return về 1 block.
+Nếu muốn vẫn hiển thị và trả về 2 khối riêng biệt mà vẫn hợp lệ thì ta có cặp thẻ <React.Fragment></React.Fragment> hoặc <></>
+Sate: nó đc dịch dưới dạng ojb và dữ liệu viết dưới dạng key:value, cái lợi của nó là thiên về trải nghiệm người dùng, nó đc cập nhật ngay lập tức khi không cần load lại trang 
